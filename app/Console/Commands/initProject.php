@@ -40,6 +40,9 @@ class initProject extends Command
      */
     public function handle()
     {
+        $this->call('migrate', []);
+        $this->call('passport:install', ['--force' => 1]);
+
         $name = $this->ask('What is your name?');
         $email = $this->ask('What is your email?');
         $password = $this->secret('Create a password?');

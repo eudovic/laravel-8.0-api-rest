@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
+
 class RepositoryServiceProvider extends ServiceProvider
 {
     /**
@@ -25,6 +26,9 @@ class RepositoryServiceProvider extends ServiceProvider
     {
         $this->app->bind(\App\Repositories\ApisConfigRepository::class, \App\Repositories\ApisConfigRepositoryEloquent::class);
         $this->app->bind(\App\Repositories\ApisConfigsRepository::class, \App\Repositories\ApisConfigsRepositoryEloquent::class);
+        $this->app->bind(\App\Repositories\TesteEmersonRepository::class, \App\Repositories\TesteEmersonRepositoryEloquent::class);
+        $this->app->bind(\App\Repositories\EmersonTesteRepository::class, \App\Repositories\EmersonTesteRepositoryEloquent::class);
+        $this->app->bind(\App\Repositories\EmersonTestesRepository::class, \App\Repositories\EmersonTestesRepositoryEloquent::class);
         //:end-bindings:
     }
 }
