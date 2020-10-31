@@ -49,7 +49,7 @@ See this exemple:
 
 Now the artisan created your table and fields.
 
-#### REQUEST ENTITY
+##### REQUEST ENTITY
 When you runned the **make:entity** command you saw that created Controller, Model(Entities Folder), Resquest(Http/Resquests folder) and other files that respect the name you choiced for that. 
 ##### PREPARE THE REQUEST CLASS
 Maybe you`ll need to open on Request folder the files created and change the returned parameters on authorize method  to true as exemple:
