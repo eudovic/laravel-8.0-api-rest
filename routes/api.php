@@ -25,8 +25,6 @@ Route::post('token', [AuthController::class, 'auth']);
 Route::middleware('auth:api')->group(function(){
     Route::resources([
         'user' => UserController::class,
-        'testes' => EmersonTestesController::class,
-        //'posts' => PostController::class,
     ]);
    
 });

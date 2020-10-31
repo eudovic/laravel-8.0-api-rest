@@ -14,7 +14,7 @@ That`s ready to use!!
 ## USING
 
 ##### REQUEST TOKEN
-For this we should send a post to your-api-addr/api/token posting in your form data the user data.
+To get the token auth we need to send a post to your-api-addr/api/token posting in your form data the user data.
 The form-data parameters are:
 POST http://your-api-addr/api/token
 
