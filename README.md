@@ -94,5 +94,5 @@ Just for clarify. Inside yout created controller you will see the methods:
 ##### HEADER REQUEST EXAMPLE
 ![Header Example](http://conectes.com.br/api_laravel_docs/requestheader.png)
 ### OTHER DOCS
-https://github.com/andersao/l5-repository/tree/2.0.14
-https://laravel.com/docs/8.x
+1. https://github.com/andersao/l5-repository/tree/2.0.14
+1. https://laravel.com/docs/8.x
