@@ -28,7 +28,7 @@ See the image:
 ------------
 
 
-##### CREATE YOUR FIRTS CRUD
+##### CREATE YOUR FIRST CRUD
 Now that you have the token lets create the first CRUD.
 1. Run **php artisan make:entity name-of-entity** and follow the steps
 You have now created your chosen features and can now take advantage of them.
@@ -83,7 +83,7 @@ You can see more about that here:
 https://laravel.com/docs/8.x/routing
 
 Now you can send you requests for defined controllers.
-Just for clarify. Inside yout created controller you will see the methods:
+Just for clarify. Inside your created controller you will see the methods:
 1. **index** (GET).
 1. **store** (POST)
 1. **show** (GET) - use  endpoint/{id}
